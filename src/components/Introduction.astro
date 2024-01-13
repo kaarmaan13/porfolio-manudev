@@ -1,12 +1,13 @@
 ---
 import Badge from "./Badge.astro";
 import LabelTitle from "./LabelTitle.astro";
-import LinkedIn from "./icons/LinkedIn.astro";
+import Linkedin from "./icons/Linkedin.astro";
 import Javascript from "./icons/Javascript.astro";
 import Node from "./icons/Node.astro";
 import Php from "./icons/Php.astro";
 import React from "./icons/React.astro";
 import AstroLogo from "./icons/AstroLogo.astro";
+import Github from "./icons/Github.astro";
 ---
 
 <div class="flex justify-between items-center gap-x-5 pt-10">
@@ -27,23 +28,25 @@ import AstroLogo from "./icons/AstroLogo.astro";
     <img src="./public/user.jpg" alt="Manuel" class="rounded-xl" />
   </div>
 </div>
-<div class="flex justify-between gap-x-5 pt-10">
+<div class="flex justify-between gap-x-8 pt-10">
   <div class="w-3/5">
     <LabelTitle>Find Me</LabelTitle>
     <div class="flex gap-x-2 pt-4">
       <a href="https://www.linkedin.com/in/manuel-del-castillo-garzon/">
-        <LinkedIn clase="fill-blue-500 w-10 h-10" />
+        <Linkedin clase="fill-blue-500 w-10 h-10" />
+      </a>
+      <a href="https://github.com/kaarmaan13" target="_blank">
+        <Github clase="fill-blue-500 w-10 h-10" />
       </a>
     </div>
   </div>
   <div class="w-2/5">
     <LabelTitle>Best Skills on</LabelTitle>
-    <div class="flex gap-x-2 pt-4">
+    <div class="flex gap-x-8 pt-4">
       <Javascript clase="w-10 h-10" />
       <Node clase="w-10 h-10" />
       <React clase="w-10 h-10" />
       <AstroLogo clase="w-10 h-10" />
-      
       <Php clase="w-10 h-10" />
     </div>
   </div>
